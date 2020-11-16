@@ -1,5 +1,8 @@
 body
 {
+    background: no-repeat /cover url(/media/examples/puppy-header-logo.jpg);
+    color:black;
+    background-size:100%;
     size:auto;
     background-image:url(halo3.jpg);
     background-size:100%;
@@ -48,7 +51,7 @@ a:hover
     border-radius:15px;
     position:relative;
     top:-13px;
-    background-image:url(halo.jpg);
+    background-image:url(halo4.jpg);
     background-size:100%;
     
     
@@ -61,7 +64,7 @@ header.page-header {
     color:black;
     text-shadow: #000 0 0 .2em;
     border: 0.4rem solid ;
-    background-image: url(border.jpg);
+    background-image: url(halo4.jpg);
     background-size:100%;
     
 
@@ -76,7 +79,7 @@ header.page-header > h1 {
 }
 button
 {
-    background-image:url(halo.jpg);
+    background-image:url(halo4.jpg);
     border-radius:1.2rem;
     background-size:200%;
     border-color:black;
@@ -191,9 +194,4 @@ h6
 .MsoTableGrid5
 {
     margin: left;
-}
-
-.asdasd
-{
-    color: black;
 }
