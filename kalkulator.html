@@ -114,25 +114,88 @@
 </table>
 
                     
-                    
+                  
 
-                    <div class="form">
-                        <form>
-                        Gyakorlati pontok száma: <input type="text" name="num1" min="12" max="120"><br>
-                        Szóbeli pontok száma: <input type="text" name="num2" min="3" max="30"><br>
-                        Összesen: <input type="text" name="sum"><br>
-                        <input class="gomb" type="button" value="Összead" onclick="calcSum()">
-                        </form>
-                        
-                        <script>
-                        function calcSum() {
-                        let num1 = document.getElementsByName("num1")[0].value;
-                        let num2 = document.getElementsByName("num2")[0].value;
-                        let sum = Number(num1) + Number(num2);
-                        document.getElementsByName("sum")[0].value = sum;
-                        }
+
+    
+<div class="media-body tm-service-text">
+<form>
+Gyakorlati pontok száma: <input type="number" name="num1" min="12" max="120"><br>
+Szóbeli pontok száma: <input type="number" name="num2" min="3" max="30" ><br>
+Összesen: <input type="number" name="sum"><br>
+<input type="button" value="Összead" onclick="calcSum()">
+</form>
+
+<script>
+function calcSum() {
+let num1 = document.getElementsByName("num1")[0].value;
+let num2 = document.getElementsByName("num2")[0].value;
+let sum = Number(num1) + Number(num2);
+document.getElementsByName("sum")[0].value = sum;
+}
+
+
+
+</script>
+
+</div> 
+              </div>
+  
+            <div class="media my-3 mb-5 tm-service-media">                            
+                  <div class="media-body tm-service-text">
+                     
+                  </div>
+</div>
+              <div class="media my-3 tm-service-media tm-service-media-img-l">
+    
+<div class="media-body tm-service-text">
+
+</div> 
+            </div>                      
+          </section>
+      </main>
+  </div>
+</div>        
+
+<div class="tm-row">
+  <div class="tm-col-left text-center">            
+      <ul class="tm-bg-controls-wrapper">
+          <li class="tm-bg-control active" data-id="0"></li>
+          <li class="tm-bg-control" data-id="1"></li>
+          <li class="tm-bg-control" data-id="2"></li>
+          <li class="tm-bg-control" data-id="3"></li>
+      </ul>            
+  </div>        
+  <div class="tm-col-right tm-col-footer">
+      <footer class="tm-site-footer text-right">
+          
+          
+          
+      </footer>
+  </div>  
+</div>        
+
+
+<div class="tm-bg">
+  <div class="tm-bg-left"></div>
+  <div class="tm-bg-right"></div>
+</div>
+</div>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.backstretch.min.js"></script>
+<script src="js/templatemo-script.js"></script>
+<div class="loader-wrapper">
+<span class="loader"><span class="loader-inner"></span></span>
+</div>
+<script>
+$(window).on("load",function(){
+$(".loader-wrapper").fadeOut("slow");
+});
+</script>
                            
         
-                
+                          
 </body>
 </html>
